@@ -25,7 +25,10 @@ print(list2)
 print(list1 + list2)
 print(list2 * 3)
 list3 = [1, 2, 3, "a", "b", "c"]
+
 print(list3[2:5]) #not include 5
 print(list3[-4:-1])
 print(list3[::2])
 print(list3[::-1])
+list3.append(list1)
+print(list3)
